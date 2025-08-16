@@ -22,7 +22,7 @@ This project was built independently for a **Database Systems class** to demonst
 ![Login](docs/traindemo-login.jpg)
 ![Signup](docs/traindemo-signup.jpg)
 ![Book a Trip](docs/tripdemo-booking.jpg)
-![Payment](docs/tripdemopayment.jpg)
+![Payment](docs/traindemopayment.jpg)
 
 
 ---
