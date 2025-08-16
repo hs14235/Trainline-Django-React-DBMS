@@ -28,7 +28,7 @@ This project was built independently for a **Database Systems class** to demonst
 ---
 
 ## 🎥 Demo
-![Trainline Demo](./Trainline-GIF.gif)
+![Trainline Demo](docs/Trainline-GIF.gif)
 
 ---
 
