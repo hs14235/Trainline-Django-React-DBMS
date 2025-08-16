@@ -1,4 +1,11 @@
-# 🚆 Trainline - Django + React + MySQL
+# 🚆 Trainline 
+
+
+## 🎥 Demo
+![Trainline Demo](docs/Trainline-GIF.gif)
+
+
+---
 
 
 ## 📖 Overview
@@ -25,12 +32,7 @@ This project was built independently for a **Database Systems class** to demonst
 ![Payment](docs/traindemopayment.jpg)
 
 
----
 
-## 🎥 Demo
-![Trainline Demo](docs/Trainline-GIF.gif)
-
----
 
 ## 🗄️ Relational Schema
 | Table             | Key Fields                        | Relationships                                |
