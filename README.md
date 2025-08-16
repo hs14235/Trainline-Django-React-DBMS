@@ -5,20 +5,19 @@
 [![Database](https://img.shields.io/badge/MySQL-Relational-lightblue)]()
 
 ## 📖 Overview
-Trainline is a **full-stack train booking system** built with **Django (backend)**, **React (frontend)**, and **MySQL (database)**.  
-It was developed as part of my **Database Systems class (Spring 2025)**, where I explored **relational schema design** and how DBMS integrates with modern full-stack development.  
-
-The project features **authentication, trip browsing, booking, payments, notifications, and chat widgets**, all powered by a relational database backend.
+Trainline is a full-stack project built with **Django (backend)**, **React (frontend)**, and **MySQL (database)**.  
+It allows users to register, log in, browse train trips, book tickets, select seats, and make payments.  
+This project was built independently for a **Database Systems class** to demonstrate DBMS concepts and relational design.
 
 ---
 
 ## ✨ Features
-- 🔑 Secure user authentication (register & login)
-- 🚄 Browse available train trips
-- 🎟️ Ticket booking with seat selection
-- 💳 Integrated payment workflow
-- 🔔 Notifications for updates
-- 💬 Chat widget for user interactions
+- 🔑 User Authentication (Register/Login)
+- 🚄 Browse and book train trips
+- 🎟️ Ticket + Seat selection
+- 💳 Payment system
+- 🔔 Notifications widget
+- 💬 Chat widget
 
 ---
 
@@ -38,21 +37,20 @@ The project features **authentication, trip browsing, booking, payments, notific
 ## 🗄️ Relational Schema
 | Table             | Key Fields                        | Relationships                                |
 |-------------------|-----------------------------------|----------------------------------------------|
-| **User**          | user_id (PK), email, password     | One-to-many with Tickets & Notifications     |
+| **User**          | user_id (PK), email, password     | One-to-many with Tickets                     |
 | **Ticket**        | ticket_id (PK), user_id (FK)      | Many-to-many with Passenger (via bridge)     |
 | **Passenger**     | passenger_id (PK), name           | Linked to Ticket via Ticket_Passenger        |
 | **Flight/Train**  | flight_id (PK), route, time       | One-to-many with Tickets                     |
 | **Payment**       | payment_id (PK), ticket_id (FK)   | One-to-one with Ticket                       |
 | **Notifications** | notif_id (PK), user_id (FK)       | One-to-many with User                        |
-| **ChatBox**       | chat_id (PK), user_id (FK)        | One-to-many with User                        |
 
 ---
 
 ## ⚙️ Tech Stack
 - **Frontend**: React (JSX, CSS)
-- **Backend**: Django REST Framework
+- **Backend**: Django (REST Framework)
 - **Database**: MySQL
-- **Other**: JWT Authentication, Axios, REST API
+- **Other**: JWT Authentication, Axios
 
 ---
 
@@ -75,8 +73,8 @@ npm start
 ---
 
 ## 🙏 Credits
-- Built independently by **Hamza** for **CSCI 3321 - Database Systems**
-- Guided by **Dr. Weitian Tong**
+- Built independently by Hamza for **CSCI 3321 - Database Systems**
+- Thanks to **Dr. Weitian Tong** for teaching and guidance
 
 ---
 
