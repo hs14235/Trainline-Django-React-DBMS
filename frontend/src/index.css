@@ -30,6 +30,8 @@ body.bg-trips {
   background-size: cover;
   --brand: #0a3d62;
   --brand-2: #3c6382;
+  animation: none !important;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
