@@ -73,8 +73,8 @@ npm start
 ---
 
 ## 🙏 Credits
-- Built independently by Hamza for **CSCI 3321 - Database Systems**
-- Thanks to **Dr. Weitian Tong** for teaching and guidance
+- Built for **CSCI 3321 - Database Systems & potential employers for insight on improvement**
+- Thanks a lot to **Dr. Weitian Tong** for succint teaching with good sources of practice via website 
 
 ---
 
