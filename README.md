@@ -22,10 +22,10 @@ This project was built independently for a **Database Systems class** to demonst
 ---
 
 ## 🖼️ Screenshots
-![Register Page](./frontend/public/train-signup.jpg)
-![Login Page](./frontend/public/train-login.jpg)
-![Booking Flow](./frontend/public/trip-booking.jpg)
-![Payment](./frontend/public/trainpayment.jpg)
+![Register Page](./frontend/public/traindemo-signup.jpg)
+![Login Page](./frontend/public/traindemo-login.jpg)
+![Booking Flow](./frontend/public/tripdemo-booking.jpg)
+![Payment](./frontend/public/traindemopayment.jpg)
 
 ---
 
