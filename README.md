@@ -19,12 +19,11 @@ This project was built independently for a **Database Systems class** to demonst
 ---
 
 ## 🖼️ Screenshots
-<p align="center">
-  <img src="docs/traindemo-login.jpg"    width="320" alt="Login" />
-  <img src="docs/traindemo-signup.jpg"   width="320" alt="Signup" />
-  <img src="docs/tripdemo-booking.jpg"   width="320" alt="Book a Trip" />
-  <img src="docs/tripdemopayment.jpg"    width="320" alt="Payment" />
-</p>
+![Login](docs/traindemo-login.jpg)
+![Signup](docs/traindemo-signup.jpg)
+![Book a Trip](docs/tripdemo-booking.jpg)
+![Payment](docs/tripdemopayment.jpg)
+
 
 ---
 
