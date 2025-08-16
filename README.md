@@ -3,7 +3,7 @@
 ![Login](docs/traindemo-login.jpg)
 ![Signup](docs/traindemo-signup.jpg)
 ![Book a Trip](docs/tripdemo-booking.jpg)
-![Payment](docs/traindemopayment.jpg)
+![Payment](docs/tripdemopayment.jpg)
 
 ## 📖 Overview
 Trainline is a full-stack project built with **Django (backend)**, **React (frontend)**, and **MySQL (database)**.  
