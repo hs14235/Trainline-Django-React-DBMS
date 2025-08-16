@@ -1,9 +1,5 @@
 # 🚆 Trainline - Django + React + MySQL
 
-![Login](docs/traindemo-login.jpg)
-![Signup](docs/traindemo-signup.jpg)
-![Book a Trip](docs/tripdemo-booking.jpg)
-![Payment](docs/tripdemopayment.jpg)
 
 ## 📖 Overview
 Trainline is a full-stack project built with **Django (backend)**, **React (frontend)**, and **MySQL (database)**.  
@@ -23,10 +19,10 @@ This project was built independently for a **Database Systems class** to demonst
 ---
 
 ## 🖼️ Screenshots
-![Register Page](./frontend/public/traindemo-signup.jpg)
-![Login Page](./frontend/public/traindemo-login.jpg)
-![Booking Flow](./frontend/public/tripdemo-booking.jpg)
-![Payment](./frontend/public/traindemopayment.jpg)
+![Login](docs/traindemo-login.jpg)
+![Signup](docs/traindemo-signup.jpg)
+![Book a Trip](docs/tripdemo-booking.jpg)
+![Payment](docs/tripdemopayment.jpg)
 
 ---
 
