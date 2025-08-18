@@ -1,31 +1,31 @@
 # 🚆 Trainline 
 
 
-## 🎥 Demo
+## Demo
 ![Trainline Demo](docs/Trainline-GIF.gif)
 
 
 ---
 
 
-## 📖 Overview
+## Overview
 Trainline is a full-stack project built with **Django (backend)**, **React (frontend)**, and **MySQL (database)**.  
 It allows users to register, log in, browse train trips, book tickets, select seats, and make payments.  
 This project was built independently for a **Database Systems class** to demonstrate DBMS concepts and relational design.
 
 ---
 
-## ✨ Features
-- 🔑 User Authentication (Register/Login)
-- 🚄 Browse and book train trips
-- 🎟️ Ticket + Seat selection
-- 💳 Payment system
-- 🔔 Notifications widget
-- 💬 Chat widget
+## Features
+-  User Authentication (Register/Login)
+-  Browse and book train trips
+-  Ticket + Seat selection
+-  Payment system
+-  Notifications widget
+-  Chat widget
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 ![Login](docs/traindemo-login.jpg)
 ![Signup](docs/traindemo-signup.jpg)
 ![Book a Trip](docs/tripdemo-booking.jpg)
@@ -34,7 +34,7 @@ This project was built independently for a **Database Systems class** to demonst
 
 
 
-## 🗄️ Relational Schema
+## Relational Schema
 | Table             | Key Fields                        | Relationships                                |
 |-------------------|-----------------------------------|----------------------------------------------|
 | **User**          | user_id (PK), email, password     | One-to-many with Tickets                     |
@@ -46,7 +46,7 @@ This project was built independently for a **Database Systems class** to demonst
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - **Frontend**: React (JSX, CSS)
 - **Backend**: Django (REST Framework)
 - **Database**: MySQL
@@ -54,7 +54,7 @@ This project was built independently for a **Database Systems class** to demonst
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 ### Backend
 ```bash
 cd backend
@@ -72,11 +72,11 @@ npm start
 
 ---
 
-## 🙏 Credits
+## Credits
 - Built for **CSCI 3321 - Database Systems & potential employers for insight on improvement**
 - Thanks a lot to **Dr. Weitian Tong** for succint teaching with good sources of practice via website 
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the [MIT License](LICENSE).
